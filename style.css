@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    width: 30%;
+    height: 100vh;
+    object-fit: cover;
+    transition: 1s;
+}
+
+img:hover {
+    width: 30%;
+    transform: scale(1);
+}
+
+img:not(:hover) {
+    opacity: 0.6;
+    width: 25%;
+
+}
